@@ -1,0 +1,9 @@
+{
+  "locals": {
+    "title": "Loop Design Document"
+  },
+  "plugins": [
+    "wintersmith-livereload",
+    "wintersmith-node-sass"
+  ]
+}
