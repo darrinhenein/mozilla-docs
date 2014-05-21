@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "devDependencies": {
     "wintersmith": "^2.0.10",
-    "wintersmith-livereload": "^0.1.1"
+    "wintersmith-livereload": "^0.1.1",
+    "wintersmith-node-sass": "^0.1.0"
   },
   "engines": {
     "node": ">=0.8.0"
