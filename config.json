@@ -1,7 +1,6 @@
 {
-  "baseUrl": "/~dhenein/labs/loop-docs/",
   "locals": {
-    "title": "Loop Design Document"
+    "title": "A Mozilla Design Document"
   },
   "plugins": [
     "wintersmith-livereload",
