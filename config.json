@@ -1,4 +1,5 @@
 {
+  "baseUrl": "/~dhenein/labs/loop-docs/",
   "locals": {
     "title": "Loop Design Document"
   },

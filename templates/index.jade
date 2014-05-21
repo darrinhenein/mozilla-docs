@@ -5,8 +5,19 @@ html(lang='en')
     | !{ livereloadScript }
     title= locals.title
     link(rel='stylesheet', href='css/style.css')
-    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,400italic,600italic,300italic,700italic')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,400italic,600italic,300italic,700italic')
+
   body
     div.container
       h1= page.title
+      ul#toc
       != page.html
+
+      div.footer
+        hr
+        p Mozilla 2014.
+
+  script(src='https://code.jquery.com/jquery-1.11.0.min.js')
+  script(src='js/jquery.tableofcontents.min.js')
+  script(src='js/ddscrollspy.js')
+  script(src='js/app.js')
