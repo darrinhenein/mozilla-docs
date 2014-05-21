@@ -1,5 +1,5 @@
 ---
-title: Moz Doc Readme
+title: A Mozilla Design Document
 template: index.jade
 ---
 
@@ -7,7 +7,7 @@ template: index.jade
 
 This is a template for creating beautiful docs, easily.
 
-####Why MozDoc?
+#### Why Mozilla Docs?
 
 Because it's awesome, that's why.
 
