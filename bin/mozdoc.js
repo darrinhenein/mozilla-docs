@@ -8,8 +8,8 @@ var wintersmithPath = './node_modules/mozdoc';
 var originalPath = shell.pwd();
 
 if(!shell.test('-e', wintersmithPath)) {
-  console.log('  Error: Please install mozdoc npm package localy:');
-  console.log('\n\tnpm install mozdoc\n');
+  console.error('  Error: Please install mozdoc npm package localy:');
+  console.error('\n\tnpm install mozdoc\n');
   return;
 }
 
@@ -58,6 +58,6 @@ else if(command == 'serve') {
             { async:true });
 }
 else {
-  console.log("  Error: '" + command + "' is not a valid command");
+  console.error("  Error: '" + command + "' is not a valid command");
   program.help();
 }
