@@ -1,10 +1,13 @@
 {
-  "name": "Moz-Doc",
-  "version": "0.0.1",
-  "devDependencies": {
+  "name": "mozdoc",
+  "version": "0.0.2",
+  "dependencies": {
     "wintersmith": "^2.0.10",
     "wintersmith-livereload": "^0.1.1",
-    "wintersmith-node-sass": "^0.1.0"
+    "wintersmith-node-sass": "^0.1.0",
+    "shelljs": "^0.3.0",
+    "chokidar": "^0.8.2",
+    "commander": "^2.2.0"
   },
   "engines": {
     "node": ">=0.8.0"
@@ -22,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/darrinhenein/mozilla-docs/issues"
   },
-  "homepage": "https://github.com/darrinhenein/mozilla-docs"
+  "homepage": "https://github.com/darrinhenein/mozilla-docs",
+  "bin": {
+    "mozdoc": "./bin/mozdoc.js"
+  }
 }
